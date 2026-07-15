@@ -1,0 +1,34 @@
+name: Wisconsin Relocation Checklist
+extends: generic
+items:
+  # Overrides generic items, relocating them into Time-sensitive with WI deadlines.
+  - id: id-license
+    category: Time-sensitive
+    title: "WI DMV — update driver's license address"
+    deadline_days: 30
+    notes: "Free online at wisconsindmv.gov"
+
+  - id: vehicle-registration
+    category: Time-sensitive
+    title: "WI DMV — update vehicle registration address"
+    deadline_days: 30
+
+  - id: mail-forwarding
+    category: Time-sensitive
+    title: "USPS mail forwarding"
+    deadline_days: 0
+    notes: "Forwards first-class mail for 12 months"
+
+  - id: voter-registration
+    category: Time-sensitive
+    title: "Update voter registration (myvote.wi.gov)"
+    deadline_days: 30
+    notes: "WI allows election-day registration as backup"
+
+  - id: security-clearance
+    category: Government
+    title: "Report address change per security clearance reporting requirements"
+
+  - id: national-guard
+    category: Government
+    title: "Update Wisconsin National Guard admin records"

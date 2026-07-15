@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# personal move data - don't commit your own address/confirmation numbers
+moveops_state.json
+*_state.json

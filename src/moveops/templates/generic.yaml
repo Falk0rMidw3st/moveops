@@ -1,0 +1,75 @@
+name: Generic Relocation Checklist
+items:
+  - id: mail-forwarding
+    category: Time-sensitive
+    title: Set up mail forwarding
+    deadline_days: 0
+
+  - id: voter-registration
+    category: Time-sensitive
+    title: Update voter registration
+    deadline_days: 30
+
+  - id: banks
+    category: Financial
+    title: Update address with banks / credit unions
+
+  - id: credit-cards
+    category: Financial
+    title: Update address with credit card issuers
+
+  - id: insurance
+    category: Financial
+    title: Update auto / renters / health / life insurance
+
+  - id: tax-authority
+    category: Financial
+    title: Update address with national tax authority
+
+  - id: employer-hr
+    category: Government
+    title: Notify employer HR / payroll
+
+  - id: id-license
+    category: Government
+    title: Update driver's license / national ID address
+
+  - id: vehicle-registration
+    category: Government
+    title: Update vehicle registration address
+
+  - id: electric-gas
+    category: Home & utilities
+    title: Stop/start electric & gas service
+
+  - id: water-sewer-trash
+    category: Home & utilities
+    title: Stop/start water / sewer / trash service
+
+  - id: internet
+    category: Home & utilities
+    title: Transfer or set up internet service
+
+  - id: shipping-default
+    category: Subscriptions & everything else
+    title: Update default shipping address (Amazon, etc.)
+
+  - id: pharmacy
+    category: Subscriptions & everything else
+    title: Transfer pharmacy
+
+  - id: medical-records
+    category: Subscriptions & everything else
+    title: Update doctor / dentist / vet records
+
+  - id: gym
+    category: Subscriptions & everything else
+    title: Cancel or transfer gym membership
+
+  - id: professional-orgs
+    category: Subscriptions & everything else
+    title: Update address with professional orgs
+
+  - id: linkedin
+    category: Subscriptions & everything else
+    title: Update LinkedIn location
