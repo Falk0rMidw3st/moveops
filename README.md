@@ -29,7 +29,7 @@ moveops list --category "Time-sensitive"
 moveops list --status pending
 
 # Mark an item done
-moveops complete wi-dmv-license --confirmation ABC123
+moveops complete id-license --confirmation ABC123
 
 # Export a printable Markdown one-pager
 moveops export --output move-checklist.md
@@ -40,12 +40,12 @@ State lives in `moveops_state.json` in the current directory by default
 
 ## Templates
 
-- `generic` — baseline checklist for any move.
-- `wisconsin` — overlays WI-specific deadlines (DMV: 30 days, USPS forwarding,
+- `generic`: baseline checklist for any move.
+- `wisconsin`: overlays WI-specific deadlines (DMV: 30 days, USPS forwarding,
   voter registration, National Guard admin records) on top of `generic`.
 
 Templates are YAML files under `src/moveops/templates/`. A template can
-`extends:` another template and override individual items by `id` — the
+`extends:` another template and override individual items by `id`. The
 override replaces that item's category/title/deadline/notes wholesale, so an
 item can move between categories (e.g. Wisconsin promotes the generic
 "driver's license" item into "Time-sensitive" with a 30-day deadline). New
