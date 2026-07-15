@@ -1,6 +1,6 @@
 # MoveOps
 
-A CLI for managing the address-change cascade after a move — because "update
+A CLI for managing the address-change cascade after a move, because "update
 your address everywhere" is actually forty small tasks with different
 deadlines, and something always gets missed.
 
